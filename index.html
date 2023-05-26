@@ -2,11 +2,27 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            .navigation {
+                text-align: right;
+                padding: 5px;
+            }
+
+            #form_container {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="navigation">
+            <p>Image Search</p>
+            <p>Advanced Search</p>
+        </div>
+        <div id="form_container">
+            <form action="https://www.google.com/search">
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
+            </form>    
+        </div>
     </body>
 </html>
