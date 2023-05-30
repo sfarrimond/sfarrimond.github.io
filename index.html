@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-        <style>
-            .navigation {
-                text-align: right;
-                padding: 5px;
-            }
-
-            #form_container {
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="navigation">
-            <p>Image Search</p>
-            <p>Advanced Search</p>
-        </div>
-        <div id="form_container">
-            <form action="https://www.google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
-            </form>    
-        </div>
-    </body>
+<head>
+  <title>Google Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navigation">
+        <p><a href="image-search.html">Image Search</a>
+        <p><a href="advanced-search.html">Advanced Search</a>
+    </div>
+    <div id="search-container">
+        <form action="https://www.google.com/search">
+        <input type="text" name="q" id="search-bar" placeholder="Google Search">
+        <input type="submit" value="Google Search" id="search-btn">
+        </form>
+    </div>
+  <script src="script.js"></script>
+</body>
 </html>
